@@ -10,6 +10,7 @@ class MainWidget extends ConsumerWidget {
     final goRouter = ref.watch(goRouterProvider);
 
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       routerConfig: goRouter,
     );
   }
