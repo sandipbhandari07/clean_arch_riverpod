@@ -8,7 +8,7 @@ class AuthService {
   static Future<String?> login(String email, String password) async {
     try {
       final response = await http.post(
-        Uri.parse('https://inventory.anoopinnovations.com/api/admin/login'),
+        Uri.parse('https://ims.anoopinnovations.com/api/admin/login'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'email': email, 'password': password}),
       );
