@@ -1,3 +1,3 @@
 # riverpod_code
 
-A new Flutter project.
+A new Flutter clean architecture project.
